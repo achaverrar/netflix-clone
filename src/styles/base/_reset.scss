@@ -1,0 +1,61 @@
+html {
+  /* CONSTANTS */
+  /* Typography */
+  --font-family-headings: "Netflix Sans Bold", Arial, Helvetica, sans-serif;
+  --font-family-body: "Netflix Sans Medium", Arial, Helvetica, sans-serif;
+  /* Desktop */
+  --font-size-heading-1: 4.8rem;
+  --font-size-heading-2: 3.6rem;
+  --font-size-heading-3: 3rem;
+  --font-size-body-1: 1.6rem;
+
+  /* Colors */
+  --color-primary-light: #83928d;
+  --color-primary-dark: #48514e;
+  /* --color-primary-darker: #303634; */
+  --color-secondary-light: #fffcbd;
+  --color-secondary-dark: #ffd50a;
+  --color-neutral-light: #f5f5f5;
+  --color-neutral-dark: #c6d2ce;
+  --color-white: #ffffff;
+  --color-black: #050a08;
+  --color-backdrop: rgba(5, 10, 8, 0.8);
+
+  /* Spacing */
+  /* Mobile */
+  --margin-1: 6.8rem;
+
+  /* Borders */
+  --border-thin: 5px;
+  /* RESET */
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body-d1);
+  color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-headings);
+}
